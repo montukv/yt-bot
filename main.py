@@ -20,6 +20,7 @@ videos = ['https://www.youtube.com/watch?v=Bp2Ewg-k0_A',
 sleep_time = 0
 
 for i in range(1000):
+	print("test",i)
 	random_video = random.randint(0,3)
 	driver.get(videos[random_video])
 	time.sleep(sleep_time) # Let the user actually see something!
